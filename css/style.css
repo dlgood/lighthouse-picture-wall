@@ -1,24 +1,75 @@
 body {
   font-family: Verdana;
   font-size: 1.5em; }
-
-body h1 {
-  color: #FF0000; }
-
-#team-members {
-  clear: both; }
-
-#team-members .member {
-  float: left;
-  /*border: 1px solid gray;*/
-  margin: 10px;
-  padding: 6px; }
-
-#team-members .member img {
-  width: 200px;
-  height: 200px; }
-
-#team-members .member div.name {
-  text-align: center; }
+  body h1 {
+    color: #FF0000; }
+  body #team-members {
+    clear: both; }
+    body #team-members h2 {
+      color: #FF0000; }
+    body #team-members .member {
+      float: left;
+      /*border: 1px solid gray;*/
+      margin: 10px;
+      padding: 6px; }
+    body #team-members .member img {
+      width: 195px;
+      height: 195px;
+      border: solid 5px purple;
+      border-radius: 5px; }
+    body #team-members .member img.jeremy {
+      background-image: url(../images/jeremy_shaki.jpg); }
+    body #team-members .member img.jeremy:hover {
+      background-image: url(../images/jeremy_shaki_hover.jpg); }
+    body #team-members .member img.arvinder {
+      background-image: url(../images/arvinder.jpg); }
+    body #team-members .member img.arvinder:hover {
+      background-image: url(../images/arvinder_kang.jpg); }
+    body #team-members .member img.landon {
+      background-image: url(../images/landon.jpg); }
+    body #team-members .member img.landon:hover {
+      background-image: url(../images/landon_hover.jpg); }
+    body #team-members .member img.khurram {
+      background-image: url(../images/khurram_virani.jpg); }
+    body #team-members .member img.khurram:hover {
+      background-image: url(../images/khurram_virani_hover.jpg); }
+    body #team-members .member img.don {
+      background-image: url(../images/don_burks.jpg); }
+    body #team-members .member img.don:hover {
+      background-image: url(../images/don_burks_hover.jpg); }
+    body #team-members .member img.david {
+      background-image: url(../images/davidvandusen.jpg); }
+    body #team-members .member img.david:hover {
+      background-image: url(../images/davidvandusen_hover.jpg); }
+    body #team-members .member img.charlyne {
+      background-image: url(../images/charlyne_fothergill.jpg); }
+    body #team-members .member img.charlyne:hover {
+      background-image: url(../images/charlyne_fothergill_hover.jpg); }
+    body #team-members .member img.michael {
+      background-image: url(../images/michael_steele.jpg); }
+    body #team-members .member img.michael:hover {
+      background-image: url(../images/michael_steele_hover.jpg); }
+    body #team-members .member img.monica {
+      background-image: url(../images/monica.jpg); }
+    body #team-members .member img.monica:hover {
+      background-image: url(../images/monica_hover.jpg); }
+    body #team-members .member img.murat {
+      background-image: url(../images/murat.jpg); }
+    body #team-members .member img.murat:hover {
+      background-image: url(../images/murat_hover.jpg); }
+    body #team-members .member img.rosy {
+      background-image: url(../images/rosy.jpg); }
+    body #team-members .member img.rosy:hover {
+      background-image: url(../images/rosy_hover.jpg); }
+    body #team-members .member img.sherman {
+      background-image: url(../images/sherman.jpg); }
+    body #team-members .member img.sherman:hover {
+      background-image: url(../images/sherman_hover.jpg); }
+    body #team-members .member img.sylvia {
+      background-image: url(../images/sylvia_rayner.jpg); }
+    body #team-members .member img.sylvia:hover {
+      background-image: url(../images/sylvia_rayner_hover.jpg); }
+    body #team-members .member div.name {
+      text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
