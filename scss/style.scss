@@ -22,8 +22,9 @@ body {
     .member img {
       width: 195px;
       height: 195px;
-      border: solid 5px purple;
-      border-radius: 5px;
+      border: solid 1px purple;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px #888888;
     }
 
     .member img.jeremy {
