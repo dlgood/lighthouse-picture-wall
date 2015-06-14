@@ -24,29 +24,35 @@ body {
       height: 195px;
       border: solid 1px purple;
       border-radius: 10px;
-      box-shadow: 5px 5px 10px #888888;
+      box-shadow: 3px 3px 5px #888888;
+      transition: 1s ease-in-out;
     }
 
-    .member img.jeremy {
+    .member img:hover{
+      box-shadow: 5px 5px 10px #888888;
+      transform: scale(1.3) rotate(360deg); 
+    }
+
+    .jeremy {
       background-image: url(../images/jeremy_shaki.jpg);
     }
 
-    .member img.jeremy:hover {
+    .jeremy:hover {
       background-image: url(../images/jeremy_shaki_hover.jpg);
     }
 
-    .member img.arvinder {
+    .arvinder {
       background-image: url(../images/arvinder.jpg);
     }
 
-    .member img.arvinder:hover {
+    .arvinder:hover {
       background-image: url(../images/arvinder_kang.jpg);
     }
-    .member img.landon {
+    .landon {
       background-image: url(../images/landon.jpg);
     }
 
-    .member img.landon:hover {
+    .landon:hover {
       background-image: url(../images/landon_hover.jpg);
     }
 

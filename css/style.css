@@ -17,18 +17,22 @@ body {
       height: 195px;
       border: solid 1px purple;
       border-radius: 10px;
-      box-shadow: 5px 5px 10px #888888; }
-    body #team-members .member img.jeremy {
+      box-shadow: 3px 3px 5px #888888;
+      transition: 1s ease-in-out; }
+    body #team-members .member img:hover {
+      box-shadow: 5px 5px 10px #888888;
+      transform: scale(1.3) rotate(360deg); }
+    body #team-members .jeremy {
       background-image: url(../images/jeremy_shaki.jpg); }
-    body #team-members .member img.jeremy:hover {
+    body #team-members .jeremy:hover {
       background-image: url(../images/jeremy_shaki_hover.jpg); }
-    body #team-members .member img.arvinder {
+    body #team-members .arvinder {
       background-image: url(../images/arvinder.jpg); }
-    body #team-members .member img.arvinder:hover {
+    body #team-members .arvinder:hover {
       background-image: url(../images/arvinder_kang.jpg); }
-    body #team-members .member img.landon {
+    body #team-members .landon {
       background-image: url(../images/landon.jpg); }
-    body #team-members .member img.landon:hover {
+    body #team-members .landon:hover {
       background-image: url(../images/landon_hover.jpg); }
     body #team-members .member img.khurram {
       background-image: url(../images/khurram_virani.jpg); }
